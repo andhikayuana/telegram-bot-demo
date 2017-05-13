@@ -25,9 +25,9 @@ $ php -S localhost:9090
 $ ngrok http 9090
 ```
 
-3. Get domain with http from ngrok and register webhook in telegram using postman
+3. Get domain with https from ngrok and register webhook in telegram using postman
 url looks like this :
-https://api.telegram.org/bot311513566:AAHvyO8aAvjxMwmSC4bhGILXL1X6wNHdGZQ/setwebhook?url=https://e1528f0a.ngrok.io
+https://api.telegram.org/bot[yourtoken]/setwebhook?url=[yourwebhook]
 
 4. Open your telegram and start give command with the bot [@prediksi_cuaca_bot]
 
